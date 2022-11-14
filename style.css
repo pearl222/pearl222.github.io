@@ -1,0 +1,119 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ .navbar li  {
+     list-style: none;
+     margin: 10px;
+     
+}
+.navbar li a {
+    color: #023e8a;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.navbarn {
+    padding: 15px;
+    background-color: #e5e5e5;
+    margin-bottom: 10px;
+
+
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.name,
+.projects,
+.skills,
+.contact,
+.main-info {
+    margin-left: 10px;
+}
+
+.about-me h2 {
+    margin-left: 10px;
+}
+img {
+    width: 300px;
+    border-radius: 10%;
+}
+
+.main-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    line-height: 34px;
+}
+
+.main-info p {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.projects li {
+    list-style: none;
+    font-size: 20px;
+}
+
+span {
+    margin-right: 10px;
+}
+
+
+.skills-list,
+.contact-list {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+.contact-list a {
+    cursor: pointer;
+    color: #023e8a;
+}
+
+.contact-list a:hover {
+    color: blueviolet;
+
+}
+.about-me h2,
+.projects h2,
+.skills h2,
+.contact h2 {
+    margin-left: 20px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #e5e5e5;
+    color: #023e8a;
+    padding: 10px;
+}
+
+.dark-mode {
+    background-color: gray;
+    color: white;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: bold;
+}
